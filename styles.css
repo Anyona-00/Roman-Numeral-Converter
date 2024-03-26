@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:plum;
+    justify-content: center;
+    font-size: large;
+
+
+}
+
+#number{
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    height: 3rem;
+    border-radius: 20px;
+    border: solid 1px yellow;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(150deg,#f4e26b, #7bb7eb);
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+#convert-btn{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 7rem;
+    height: 2.3rem;
+    border-radius: 20px;
+    border: solid 1px yellow;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(150deg, #0074D9, #FFDC00);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    height: 10rem;
+    border-radius: 20px;
+    border: solid 1px rgb(142, 142, 3);
+    background-color: rgb(242, 242, 86);
+    font-weight: bolder;
+    font-size: x-large;
+}
